@@ -11,6 +11,8 @@
 		9CE3570F2ACF05CF007BE8C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3570E2ACF05CF007BE8C7 /* ContentView.swift */; };
 		9CE357112ACF05D1007BE8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE357102ACF05D1007BE8C7 /* Assets.xcassets */; };
 		9CE357142ACF05D1007BE8C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE357132ACF05D1007BE8C7 /* Preview Assets.xcassets */; };
+		9CE3571B2ACF08FD007BE8C7 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3571A2ACF08FD007BE8C7 /* QuizModel.swift */; };
+		9CE3571D2ACF093E007BE8C7 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3571C2ACF093E007BE8C7 /* QuizViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9CE3570E2ACF05CF007BE8C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CE357102ACF05D1007BE8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE357132ACF05D1007BE8C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CE3571A2ACF08FD007BE8C7 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		9CE3571C2ACF093E007BE8C7 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				9CE3570C2ACF05CF007BE8C7 /* CheckAccessibilityApp.swift */,
 				9CE3570E2ACF05CF007BE8C7 /* ContentView.swift */,
+				9CE3571C2ACF093E007BE8C7 /* QuizViewModel.swift */,
+				9CE3571A2ACF08FD007BE8C7 /* QuizModel.swift */,
 				9CE357102ACF05D1007BE8C7 /* Assets.xcassets */,
 				9CE357122ACF05D1007BE8C7 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CE3570F2ACF05CF007BE8C7 /* ContentView.swift in Sources */,
+				9CE3571B2ACF08FD007BE8C7 /* QuizModel.swift in Sources */,
 				9CE3570D2ACF05CF007BE8C7 /* CheckAccessibilityApp.swift in Sources */,
+				9CE3571D2ACF093E007BE8C7 /* QuizViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CheckAccessibility/Preview Content\"";
-				DEVELOPMENT_TEAM = PS7Z6T5378;
+				DEVELOPMENT_TEAM = 5F3426985K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -301,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CheckAccessibility/Preview Content\"";
-				DEVELOPMENT_TEAM = PS7Z6T5378;
+				DEVELOPMENT_TEAM = 5F3426985K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
